@@ -1,0 +1,56 @@
+.hide {
+    display: none;
+}
+
+
+.spaceship,
+.enemy {
+    position: absolute;
+    bottom: 100px;
+    margin: auto;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    background-image: url(blue-spaceship.png);
+    background-size: cover;
+
+
+}
+
+
+.gameArea {
+    background-color: pink;
+    width: 400px;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
+    left: 35%;
+}
+
+.line {
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    margin-left: 55px;
+    background-color: pink;
+}
+
+
+.score {
+    background-color: pink;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+
+
+.startScreen {
+    text-align: center;
+    border: 1px solid pink;
+    padding: 15px;
+    margin: auto;
+    width: 400px;
+}
